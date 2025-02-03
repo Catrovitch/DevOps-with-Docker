@@ -1,0 +1,2 @@
+docker build -t example-frontend .
+docker run -d -p 5001:5000 --name frontend example-frontend
