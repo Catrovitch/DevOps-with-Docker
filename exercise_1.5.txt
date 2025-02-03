@@ -1,0 +1,14 @@
+docker image ls | grep devopsdockeruh/simple-web-service
+devopsdockeruh/simple-web-service   ubuntu    d44e1dce3987   3 years ago    126MB
+devopsdockeruh/simple-web-service   alpine    dd4d367476f8   3 years ago    24.3MB
+
+
+docker exec -it alpine_service sh
+/usr/src/app # tail -f ./text.log
+
+2025-02-03 09:12:02 +0000 UTC
+2025-02-03 09:12:04 +0000 UTC
+2025-02-03 09:12:06 +0000 UTC
+2025-02-03 09:12:08 +0000 UTC
+2025-02-03 09:12:10 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
